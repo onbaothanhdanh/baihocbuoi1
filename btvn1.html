@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .image-gallery {
+            width: 350px;
+        }
+
+        .image-gallery img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        #back-to-top {
+            background-color: white;
+            color: #070d91;
+            text-align: center;
+            line-height: 50px;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Paragraph with devider</h1>
+    <hr>
+    <p>This is a <br>paragraph with devider</p>
+    <h1>Format text <span style="background-color: yellow;">marker</span></h1>
+    <p>Please use only HTML without CSS</p>
+    <ol>
+        <li>this word is <em>emphasized</em></li>
+        <li>this word is <i>italic</i></li>
+        <li>this word is <sup>superscripted</sup></li>
+        <li>this word is <sub>sub</sub></li>
+        <li>this word is <b><u>inserted</u></b></li>
+        <li>this word is <del>deleted</del></li>
+    </ol>
+    <!-- bài tập 3 -->
+    <caption align="top">HTML TABLE</caption>
+    <table>
+        <tr>
+            <th>Company</th>
+            <th>Contact</th>
+            <th>Country</th>
+        </tr>
+        <tr>
+            <td>Alfreds Futterkiste</td>
+            <td>Maria Anders</td>
+            <td>Germany</td>
+        </tr>
+        <tr>
+            <td>Centro comercial Moctezuma</td>
+            <td>Francisco Chang</td>
+            <td>Mexico</td>
+        </tr>
+        <tr>
+            <td>Ernst Handel</td>
+            <td>Roland Mendel</td>
+            <td>Autria</td>
+        </tr>
+        <tr>
+            <td>Island Trading</td>
+            <td>Helen Benett</td>
+            <td>UK</td>
+        </tr>
+        <tr>
+            <td>Laughing Bacchus Wineccellars</td>
+            <td>Yoshi Tanamuri</td>
+            <td>Canada</td>
+        </tr>
+        <tr>
+            <td>Magazzini Alimentari Riuniti</td>
+            <td>Givonni Rovelli</td>
+            <td>Italy</td>
+        </tr>
+    </table>
+    <!-- bài 4 -->
+    <br>
+    <table border="1">
+        <caption text-align: center>This is a table caption</caption>
+        <tr>
+            <td>Column 1</td>
+            <td>Column 2</td>
+            <td>Column 3</td>
+            <td>Column 4</td>
+            <td>Column 5</td>
+        </tr>
+        <tr>
+            <td>Data 1</td>
+            <td rowspan="3">Data 2</td>
+            <td>Data 3</td>
+            <td>Data 4</td>
+            <td>Data 5</td>
+        </tr>
+        <tr>
+            <td>Data 1</td>
+            <td>Data 3</td>
+            <td colspan="2">Data 4 và 5</td>
+        </tr>
+        <tr>
+            <td>Data 1</td>
+            <td>Data 3</td>
+            <td>Data 4</td>
+            <td>Data 5</td>
+        </tr>
+    </table>
+    <!-- bài 5 -->
+    <br>
+    <br>
+    <caption align="top"><b>This is a table caption</b></caption>
+    <table class="image-gallery">
+        <tr>
+            <td><img src="tranh-to-mau-cai-cay-cho-be-ba-tuoi.jpg" alt="Image 1"></td>
+            <td><img src="tranh-to-mau-cai-cay-cho-be-ba-tuoi.jpg" alt="Image 2"></td>
+            <td><img src="tranh-to-mau-cai-cay-cho-be-ba-tuoi.jpg" alt="Image 3"></td>
+        </tr>
+        <tr>
+            <td><img src="tranh-to-mau-cai-cay-cho-be-ba-tuoi.jpg" alt="Image 4"></td>
+            <td><img src="tranh-to-mau-cai-cay-cho-be-ba-tuoi.jpg" alt="Image 5"></td>
+            <td><img src="tranh-to-mau-cai-cay-cho-be-ba-tuoi.jpg" alt="Image 6"></td>
+        </tr>
+        <tr>
+            <td><img src="tranh-to-mau-cai-cay-cho-be-ba-tuoi.jpg" alt="Image 7"></td>
+            <td><img src="tranh-to-mau-cai-cay-cho-be-ba-tuoi.jpg" alt="Image 8"></td>
+            <td><img src="tranh-to-mau-cai-cay-cho-be-ba-tuoi.jpg" alt="Image 9"></td>
+        </tr>
+    </table>
+    <!-- bài 7 -->
+
+    <br><br><br><br>
+    <h1>Welcome to The Litte Taco Shop</h1>
+    <ol>
+        <li><a href="#target-header1">About LTS</a></li>
+        <li><a href="#target-header2">Our Menu</a></li>
+        <li><a href="#">Store House</a></li>
+        <li><a href="#">Contact US</a></li>
+    </ol>
+    <img src="kanpai.jpg" alt="hình ảnh có lỗi">
+    <hr>
+    <h2 id="target-header1">About LTS</h2>
+    <p><u>LTS</u>was founded in 2022. Our shop was bulit a <b>love of tacos</b><span>🥪🥪🥪.</span>We hope our shop adds
+        a unique and interesting place to our little town.</p>
+    <h3>Taco trivia</h3>
+    <p><span>&#10151;</span>when did tacos first appear in the United Stated</p>
+    <hr>
+    <h2 id="target-header2">Our Menu</h2>
+    <table>
+        <caption style="text-align: center;">Our tarcos</caption>
+        <tr>
+            <td rowspan="2"><b>Tacos</b></td>
+            <td><b>Qty</b></td>
+            <td><b>Price</b></td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>$1.50</td>
+        </tr>
+        <tr>
+            <td rowspan="3"><b>Crunchy</b></td>
+            <td>2</td>
+            <td>$2.50</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>$3.25</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>2.00</td>
+        </tr>
+        <tr>
+            <td rowspan="2"><b>Soft</b></td>
+            <td>2</td>
+            <td>$3.50</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>$4.50</td>
+        </tr>
+        <tr>
+            <td colspan="3">Chip & Salsa $2</td>
+        </tr>
+    </table>
+    <button id="back-to-top" onclick="topFunction()"><u>Back To Top</u></button>
+    <script>
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+    </script>
+    <hr>
+    <p>Copyright &copy; The Little Taco Shop</p>
+</body>
+
+</html>
